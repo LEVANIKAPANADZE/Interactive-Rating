@@ -85,6 +85,24 @@ const Container = styled.div`
     font-size: 14px;
     line-height: 22px;
   }
+
+  @media screen and (min-width: 1440px) {
+    width: 412px;
+    padding: 32px 39px 32px 32px;
+    border-radius: 30px;
+
+    h1 {
+      margin-top: 30px;
+      font-size: 28px;
+      line-height: 35.45px;
+    }
+
+    p {
+      margin-top: 7px;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
 `;
 
 const Star = styled.div`
@@ -95,6 +113,11 @@ const Star = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: 1440px) {
+    width: 48px;
+    height: 48px;
+  }
 `;
 
 const Buttons = styled.div`
@@ -117,8 +140,21 @@ const Buttons = styled.div`
     text-align: center;
     &:hover {
       cursor: pointer;
-      background: #fc7614;
-      color: #ffffff;
+      background: #fc7614 !important;
+      color: #ffffff !important;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 21px;
+    margin-top: 24px;
+
+    button {
+      width: 51px;
+      height: 51px;
+      font-size: 16px;
+      letter-spacing: 0.17px;
+      text-align: center;
     }
   }
 `;
@@ -140,5 +176,13 @@ const Submit = styled.button`
     cursor: pointer;
     background: #ffffff;
     color: #fc7614;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 341px;
+    margin-top: 32px;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
   }
 `;

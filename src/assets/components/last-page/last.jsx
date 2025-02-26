@@ -51,6 +51,23 @@ const Container = styled.div`
     line-height: 22px;
     text-align: center;
   }
+
+  @media screen and (min-width: 1440px) {
+    width: 412px;
+    border-radius: 30px;
+
+    h1 {
+      margin-top: 32px;
+      font-size: 28px;
+      line-height: 35.38px;
+    }
+
+    p {
+      margin: 7px 40px 45px 32px;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
 `;
 
 const Selection = styled.div`
@@ -67,8 +84,19 @@ const Selection = styled.div`
   height: 32px;
   line-height: 22px;
   text-align: center;
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 32px;
+    width: 193px;
+    font-size: 15px;
+    line-height: 24px;
+  }
 `;
 
 const Image = styled.img`
   margin-top: 34px;
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 45px;
+  }
 `;
