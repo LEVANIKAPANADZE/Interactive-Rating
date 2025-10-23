@@ -7,14 +7,6 @@ Users can select a rating (1–5), submit it, and see a beautiful **thank-you** 
 
 ---
 
-## 🚀 Demo Preview
-
-| Before Submit                                                                 | After Submit                                                                       |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| ![Rating Page](https://github.com/user-attachments/assets/example-rating.png) | ![Thank You Page](https://github.com/user-attachments/assets/example-thankyou.png) |
-
----
-
 ## 🧠 Features
 
 ✅ Clean & modern UI
