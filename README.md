@@ -72,24 +72,6 @@ Now open **[http://localhost:5173](http://localhost:5173)** (or whichever port i
 
 ---
 
-## 🌟 Example Usage
-
-```jsx
-import First from "./assets/components/first-page/first";
-import GlobalStyle from "../GlobalStyles";
-
-function App() {
-  return (
-    <>
-      <GlobalStyle />
-      <First />
-    </>
-  );
-}
-
-export default App;
-```
-
 ---
 
 ## 🧑‍🎨 UI Design
