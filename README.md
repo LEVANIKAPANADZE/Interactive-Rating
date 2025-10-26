@@ -72,8 +72,6 @@ Now open **[http://localhost:5173](http://localhost:5173)** (or whichever port i
 
 ---
 
----
-
 ## 🧑‍🎨 UI Design
 
 🟠 Orange (Accent): `#fc7614`
